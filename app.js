@@ -108,7 +108,7 @@ const CARDS = [
     link: "https://www.youtube.com/",
   },
   {
-    name: "OSYM",
+    name: "ÖSYM",
     icon: "fa-school",
     link: "https://ais.osym.gov.tr/",
   },
@@ -336,6 +336,21 @@ const printCards = () => {
   }
 };
 
+/*****************/
+/* RANDOM COLORS */
+/*****************/
+/* Give random background colors to card */
+const randomColors = () => {
+  var cards = document.querySelectorAll(".card");
+  var names = document.querySelectorAll(".card__name");
+
+  for (i = 0; i < cards.length; i++) {
+    // Pick a random color from the array 'colors'.
+    cards[i].style.backgroundColor = "hsla(" + ~~(360 * Math.random()) + "," + "70%,"+ "70%,1)";
+    names[i].style.color = "black";
+  }
+}
+
 /****************/
 /* STARTER CODE */
 /****************/
@@ -343,3 +358,4 @@ const printCards = () => {
 userName.innerHTML = NAME;
 printCards();
 updateDate();
+randomColors();

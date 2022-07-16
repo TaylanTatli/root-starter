@@ -9,6 +9,7 @@ Fork of [root-startpage](https://github.com/imreyesjorge/root-startpage) by [Jor
 * Using grid for card container instead of flex.
 * Cards are smaller to fit more cards to screen.
 * Card titles are visible for usability.
+* Cards backgrounds randomly generated.
 
 > Using Turkish for my own use. You may need to edit some lines in `index.html` and `app.js` to use it properly.
 
