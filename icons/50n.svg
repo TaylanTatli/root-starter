@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    version="1.1"
-   viewBox="0 0 64 64"
+   viewBox="0 0 40.770668 28.831978"
    viewbox="0 0 64 64"
    id="svg2340"
-   sodipodi:docname="50n.svg"
+   sodipodi:docname="50d.svg"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   width="40.770668"
+   height="28.831978"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -21,8 +23,8 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="9.3470678"
-     inkscape:cx="20.701679"
-     inkscape:cy="41.296373"
+     inkscape:cx="-0.80239067"
+     inkscape:cy="21.397085"
      inkscape:window-width="1920"
      inkscape:window-height="1052"
      inkscape:window-x="0"
@@ -32,37 +34,6 @@
      inkscape:lockguides="true" />
   <defs
      id="defs2325">
-    <filter
-       id="blur"
-       width="3.05"
-       height="2.94"
-       x="-1.025"
-       y="-0.82">
-      <feGaussianBlur
-         in="SourceAlpha"
-         stdDeviation="3"
-         id="feGaussianBlur2308" />
-      <feOffset
-         dx="0"
-         dy="4"
-         result="offsetblur"
-         id="feOffset2310" />
-      <feComponentTransfer
-         id="feComponentTransfer2314">
-        <feFuncA
-           slope="0.05"
-           type="linear"
-           id="feFuncA2312" />
-      </feComponentTransfer>
-      <feMerge
-         id="feMerge2320">
-        <feMergeNode
-           id="feMergeNode2316" />
-        <feMergeNode
-           in="SourceGraphic"
-           id="feMergeNode2318" />
-      </feMerge>
-    </filter>
     <style
        type="text/css"
        id="style2323"><![CDATA[@keyframes am-weather-rain {
@@ -119,9 +90,8 @@
         ]]></style>
   </defs>
   <g
-     transform="translate(20,10)"
-     id="g2329"
-     style="filter:url(#blur)">
+     transform="translate(6.8105194,-9.9)"
+     id="g2329">
     <path
        transform="translate(-20,-11)"
        d="m 47.7,35.4 c 0,-4.6 -3.7,-8.2 -8.2,-8.2 -1,0 -1.9,0.2 -2.8,0.5 -0.3,-3.4 -3.1,-6.2 -6.6,-6.2 -3.7,0 -6.7,3 -6.7,6.7 0,0.8 0.2,1.6 0.4,2.3 -0.3,-0.1 -0.7,-0.1 -1,-0.1 -3.7,0 -6.7,3 -6.7,6.7 0,3.6 2.9,6.6 6.5,6.7 h 17.2 c 4.4,-0.5 7.9,-4 7.9,-8.4 z"
@@ -132,14 +102,13 @@
        id="path2327" />
   </g>
   <g
-     transform="rotate(89.613052,-10.471464,34.361489)"
+     transform="rotate(89.613052,-7.0487789,17.77206)"
      fill="none"
      stroke="#91c0f8"
      stroke-dasharray="4, 4"
      stroke-linecap="round"
      stroke-width="2"
-     id="g2337"
-     style="filter:url(#blur)">
+     id="g2337">
     <line
        class="am-weather-rain-1"
        y2="8.9887009"

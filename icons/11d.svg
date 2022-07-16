@@ -1,17 +1,41 @@
-<svg version="1.1" viewBox="0 0 64 64" viewbox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-        <filter id="blur" width="200%" height="200%">
-            <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
-            <feOffset dx="0" dy="4" result="offsetblur"/>
-            <feComponentTransfer>
-                <feFuncA slope="0.05" type="linear"/>
-            </feComponentTransfer>
-            <feMerge>
-                <feMergeNode/>
-                <feMergeNode in="SourceGraphic"/>
-            </feMerge>
-        </filter>
-        <style type="text/css"><![CDATA[
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="0 0 32.799999 42.369999"
+   viewbox="0 0 64 64"
+   id="svg34"
+   sodipodi:docname="11d.svg"
+   width="32.799999"
+   height="42.369999"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview36"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="13.21875"
+     inkscape:cx="12.86052"
+     inkscape:cy="15.432624"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g23" />
+  <defs
+     id="defs19">
+    <style
+       type="text/css"
+       id="style17"><![CDATA[
 /*
 ** CLOUDS
 */
@@ -243,16 +267,45 @@
           animation-iteration-count: infinite;
 }
         ]]></style>
-    </defs>
-    <g id="thunder" filter="url(#blur)">
-        <g transform="translate(20,10)">
-            <g class="am-weather-cloud-1">
-                <path transform="translate(-10 -6) scale(.6)" d="m47.7 35.4c0-4.6-3.7-8.2-8.2-8.2-1 0-1.9 0.2-2.8 0.5-0.3-3.4-3.1-6.2-6.6-6.2-3.7 0-6.7 3-6.7 6.7 0 0.8 0.2 1.6 0.4 2.3-0.3-0.1-0.7-0.1-1-0.1-3.7 0-6.7 3-6.7 6.7 0 3.6 2.9 6.6 6.5 6.7h17.2c4.4-0.5 7.9-4 7.9-8.4z" fill="#91C0F8" stroke="#fff" stroke-linejoin="round" stroke-width="1.2"/>
-            </g>
-            <path transform="translate(-20,-11)" d="m47.7 35.4c0-4.6-3.7-8.2-8.2-8.2-1 0-1.9 0.2-2.8 0.5-0.3-3.4-3.1-6.2-6.6-6.2-3.7 0-6.7 3-6.7 6.7 0 0.8 0.2 1.6 0.4 2.3-0.3-0.1-0.7-0.1-1-0.1-3.7 0-6.7 3-6.7 6.7 0 3.6 2.9 6.6 6.5 6.7h17.2c4.4-0.5 7.9-4 7.9-8.4z" fill="#57A0EE" stroke="#fff" stroke-linejoin="round" stroke-width="1.2"/>
-            <g transform="translate(-9 28) scale(1.2)">
-                <polygon class="am-weather-stroke" points="14.3 -2.9 20.5 -2.9 16.4 4.3 20.3 4.3 11.5 14.6 14.9 6.9 11.1 6.9" fill="orange" stroke="#fff"/>
-            </g>
-        </g>
+  </defs>
+  <g
+     id="thunder"
+     transform="translate(-15.5,-16.54)">
+    <g
+       transform="translate(20,10)"
+       id="g31">
+      <g
+         class="am-weather-cloud-1"
+         id="g23"
+         style="-moz-animation-duration:7s;-moz-animation-iteration-count:infinite;-moz-animation-name:am-weather-cloud-1;-moz-animation-timing-function:linear;-webkit-animation-duration:7s;-webkit-animation-iteration-count:infinite;-webkit-animation-name:am-weather-cloud-1;-webkit-animation-timing-function:linear">
+        <path
+           transform="matrix(0.6,0,0,0.6,-10,-6)"
+           d="m 47.7,35.4 c 0,-4.6 -3.7,-8.2 -8.2,-8.2 -1,0 -1.9,0.2 -2.8,0.5 -0.3,-3.4 -3.1,-6.2 -6.6,-6.2 -3.7,0 -6.7,3 -6.7,6.7 0,0.8 0.2,1.6 0.4,2.3 -0.3,-0.1 -0.7,-0.1 -1,-0.1 -3.7,0 -6.7,3 -6.7,6.7 0,3.6 2.9,6.6 6.5,6.7 h 17.2 c 4.4,-0.5 7.9,-4 7.9,-8.4 z"
+           fill="#91c0f8"
+           stroke="#ffffff"
+           stroke-linejoin="round"
+           stroke-width="1.2"
+           id="path21" />
+      </g>
+      <path
+         transform="translate(-20,-11)"
+         d="m 47.7,35.4 c 0,-4.6 -3.7,-8.2 -8.2,-8.2 -1,0 -1.9,0.2 -2.8,0.5 -0.3,-3.4 -3.1,-6.2 -6.6,-6.2 -3.7,0 -6.7,3 -6.7,6.7 0,0.8 0.2,1.6 0.4,2.3 -0.3,-0.1 -0.7,-0.1 -1,-0.1 -3.7,0 -6.7,3 -6.7,6.7 0,3.6 2.9,6.6 6.5,6.7 h 17.2 c 4.4,-0.5 7.9,-4 7.9,-8.4 z"
+         fill="#57a0ee"
+         stroke="#ffffff"
+         stroke-linejoin="round"
+         stroke-width="1.2"
+         id="path25" />
+      <g
+         transform="matrix(1.2,0,0,1.2,-9,28)"
+         id="g29">
+        <polygon
+           class="am-weather-stroke"
+           points="14.9,6.9 11.1,6.9 14.3,-2.9 20.5,-2.9 16.4,4.3 20.3,4.3 11.5,14.6 "
+           fill="#ffa500"
+           stroke="#ffffff"
+           id="polygon27"
+           style="-moz-animation-duration:1.11s;-moz-animation-iteration-count:infinite;-moz-animation-name:am-weather-stroke;-moz-animation-timing-function:linear;-webkit-animation-duration:1.11s;-webkit-animation-iteration-count:infinite;-webkit-animation-name:am-weather-stroke;-webkit-animation-timing-function:linear" />
+      </g>
     </g>
+  </g>
 </svg>
