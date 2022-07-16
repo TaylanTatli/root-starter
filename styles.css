@@ -1,0 +1,175 @@
+/* Custom Variables | Color Scheme */
+
+:root {
+  --primary: #ef8080;
+  --text-light: #eeeeee;
+  --background: #191e29;
+  --background-light: #202633;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  color: var(--text-light);
+  font-family: "Open Sans", sans-serif;
+
+  padding: 2rem 4rem;
+
+  background-color: var(--background);
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+h1 > #userName {
+  color: var(--primary);
+}
+
+main {
+  margin-top: 4rem;
+
+  display: grid;
+  --auto-grid-min-size: 8rem;
+  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+  grid-gap: 2rem;
+  justify-content: center;
+}
+
+footer {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.8rem;
+
+  margin-top: 2rem;
+}
+
+footer > a:link,
+footer > a:visited {
+  color: inherit;
+}
+
+footer > a:hover {
+  color: var(--primary);
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+}
+
+.header {
+  font-weight: 400;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#currentDate {
+  color: var(--primary);
+}
+
+#currentTime {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+#weatherIcon {
+  display: inline-block;
+  height: 1.25em;
+  width: auto;
+  vertical-align: -4px;
+  margin: 0 0.3em;
+}
+
+@media screen and (max-width: 1250px) {
+  h1 {
+    display: none;
+  }
+
+  .header {
+    flex-direction: column-reverse;
+  }
+
+  #currentTime {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  #fullDate {
+    text-align: center;
+  }
+}
+
+.card:link,
+.card:visited {
+  color: white;
+  text-decoration: none;
+
+  padding: 2rem;
+
+  background-color: var(--background-light);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+
+  outline: none;
+  transition: 0.1s;
+}
+
+.card:hover,
+.card:focus {
+  border-color: var(--primary);
+  color: var(--primary);
+
+  transform: scale(1.02);
+}
+.card:focus > .card__name,
+.card:hover > .card__name {
+  opacity: 1;
+}
+
+.card__icon {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-size: 2rem;
+
+  width: 2.25em;
+  height: 2.25em;
+
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+
+  display: grid;
+  place-items: center;
+}
+
+.card__name {
+  white-space: nowrap;
+  position: absolute;
+  bottom: 0.3em;
+  font-size: .9em;
+  font-weight: 400;
+  opacity: .5;
+  transition: 0.1s;
+}
