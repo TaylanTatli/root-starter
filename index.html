@@ -21,9 +21,23 @@
         </div>
         <p id="currentTime">00:00</p>
       </header>
+      <form class="search" role="search" id="form">
+        <input id="query" type="text" class="searchTerm" onfocus="this.value=''" placeholder="Google'da Ara..." autofocus>
+      </form>
       <main id="cardContainer"></main>
     </div>
-    <!--<footer>Crafted with 💜 by <a href="https://reyes.cool">reyes</a>.</footer>-->
     <script src="./app.js"></script>
+    <script>
+      const f = document.getElementById('form');
+      const q = document.getElementById('query');
+      const google = 'https://www.google.com/search?q=';
+      function submitted(event) {
+        event.preventDefault();
+        const url = google + q.value;
+        const win = window.open(url, '_blank');
+        win.focus();
+      }
+      f.addEventListener('submit', submitted);
+    </script>
   </body>
 </html>

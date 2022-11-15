@@ -5,6 +5,7 @@
   --text-light: #eeeeee;
   --background: #191e29;
   --background-light: #202633;
+  --background-alt: #303a4f;
 }
 
 *,
@@ -39,7 +40,7 @@ h1 > #userName {
 }
 
 main {
-  margin-top: 4rem;
+  margin-top: 2rem;
 
   display: grid;
   --auto-grid-min-size: 8rem;
@@ -169,4 +170,29 @@ footer > a:hover {
   font-weight: 500;
   opacity: .5;
   transition: 0.1s;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.searchTerm {
+  display: inline-flex;
+  height: 3rem;
+  border-radius: 18px;
+  padding: 1em;
+  width: 50%;
+  background: var(--background-light);
+  border: none;
+  color: #FFF;
+}
+
+.searchTerm:focus{
+  color: #FFF;
+  outline: none;
+  border: 1px solid var(--background-alt);
 }
