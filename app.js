@@ -45,7 +45,7 @@ const CARDS = [
   {
     name: "Dizilla",
     icon: "fa-clapperboard",
-    link: "https://dizilla5.com/",
+    link: "https://dizilla4.com/",
   },
   {
     name: "Pocket",
@@ -278,7 +278,7 @@ weather.temperature = {};
 var tempUnit = 'C';
 
 const KELVIN = 272.15;
-const key = 'APIHERE';
+const key = '39214b9803f123f428d81d0e38c1af9c';
 const cityID = "320879";
 getWeather(cityID);
 
